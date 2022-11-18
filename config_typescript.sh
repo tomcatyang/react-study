@@ -21,9 +21,9 @@ npm install @babel/preset-typescript  --save-dev
 npm install @types/react @types/react-dom --save-dev
 
 echo "copy配置文件到项目目录"
-cp  ../file-template/ts/webpack.config_tsx.js webpack/webpack.config.js
-cp  ../file-template/ts/index.js src/index.js
-cp -r ../file-template/ts/four src/four
+cp  ../react-mini-web/file-template/ts/webpack.config_tsx.js webpack/webpack.config.js
+cp  ../react-mini-web/file-template/ts/index.js src/index.js
+cp -r ../react-mini-web/file-template/ts/four src/four
 
 echo "在package 执行命令script下添加"
 echo  "\"tsc_init\": \"tsc --init\""

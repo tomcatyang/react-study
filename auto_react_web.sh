@@ -33,9 +33,9 @@ npm i css-loader html-loader -D
 
 echo "copy配置文件到项目目录"
 
-cp -r ../file-template/webpack webpack
-cp -r ../file-template/src src
-cp  ../file-template/.babelrc ./
+cp -r ../react-mini-web/file-template/webpack webpack
+cp -r ../react-mini-web/file-template/src src
+cp  ../react-mini-web/file-template/.babelrc ./
 
 echo "在package 执行命令script下添加"
 echo "---------------------------"

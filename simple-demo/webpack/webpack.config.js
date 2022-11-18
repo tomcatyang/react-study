@@ -59,13 +59,13 @@ module.exports = {
     plugins: [
         new HtmlWebPackPlugin({
             template: main_html,
-            filename: "./index.html", //生成的html页面的名字为one.html
-            title:"one", //它的title为one，记得要在src/one.html中加入<%= %>
-            chunks:["one"],
+            filename: "./index.html", //生成的html页面的名字为index.html
+            title:"one", //它的title为one，记得要在src/index.html中加入<%= %>
+            chunks:["one"], //使用one.js moudule
         }),
         new HtmlWebPackPlugin({
             template: main_html,
-            filename: "./two/index.html",
+            filename: "./two/index.html",//生成的html页面的名字为./two/index.html
             title:"two",
             chunks:["two"],
         }),
@@ -88,6 +88,6 @@ module.exports = {
           directory: path.join(__dirname, 'public'),
         },
         compress: true,
-        port: 9000,
+        port: 9001,
     },
 };

@@ -1,0 +1,16 @@
+1、初始化目录
+npm init 
+
+2、设置命令
+在package.json文件中增加命令参数, you-cmd为命令，./index.js为命令执行的文件，可以有多个命令
+  "bin": {
+    "you-cmd": "./index.js"
+  },
+
+3、开发命令执行流程./index.js
+
+4、测试 （npm link 命令可以将一个任意位置的 npm 包链接到全局执行环境，从而在任意位置使用命令行都可以直接运行该 npm 包）
+npm link
+
+5、在cmd执行命令 
+>you-cmd ***

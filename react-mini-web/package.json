@@ -1,0 +1,21 @@
+{
+  "name": "react-mini-web",
+  "version": "0.1.1",
+  "description": "simple react web  project create utile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "mini-web": "index.js"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.1"
+  },
+  "devDependencies": {}
+}
